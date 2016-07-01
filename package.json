@@ -1,0 +1,37 @@
+{
+  "name": "React_GraphQL_Relay_Tutorial",
+  "version": "1.0.0",
+  "description": "A React, GraphQL and Relay tutorial building a simple crud application",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/rphuber/Building_Data_Driven_Applications.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/rphuber/Building_Data_Driven_Applications/issues"
+  },
+  "homepage": "https://gitlab.com/rphuber/Building_Data_Driven_Applications#README",
+	"scripts": {
+		"start": "node index.js"
+	},
+  "keywords": [
+    "React",
+    "GraphQL",
+    "Relay",
+    "Tutorial",
+    "Crud"
+  ],
+  "author": "Ryan Huber",
+  "license": "ISC",
+	"babel": {
+		"presets": ["es2015", "react"]
+	},
+  "dependencies": {
+    "babel-register": "^6.9.0",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1"
+  }
+}
