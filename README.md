@@ -13,6 +13,10 @@ but will start off with a simple server to run the back-end of the application.
 ```
 npm install
 ```
-This tutorial will use ES6 via Babel.  The server will be run through the
-babel-register package via index.js.
+This tutorial will use ES6 via Babel.  The server needed to run the application
+is complete and will be run through the babel-register package via index.js in
+the root directory.  Everything you need to run this walkthrough is complete and
+if you have any questions please reach out via a pull request.  
+
+
 
