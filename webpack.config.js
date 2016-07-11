@@ -2,7 +2,7 @@ import webpack from 'webpack';
 import path from 'path';
 
 export default {
-	context: path.join(__dirname, '../client/source'),
+	context: path.join(__dirname, './client/source'),
 	entry: [
 		'webpack-hot-middleware/client?reload=true',
 		'./js/index.js'
@@ -21,7 +21,7 @@ export default {
 	],
 	module: {
 		loaders: [
-			{ test: /\.js$/, include: path.join(__dirname, '../source'), loader: 'babel' }
+			{ test: /\.js$/, include: path.join(__dirname, './client'), loader: 'babel' }
 		]
 	}
 }
