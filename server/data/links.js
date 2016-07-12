@@ -1,4 +1,7 @@
-import links from 'links.json';
+let links = [];
+
+createLink("Relay.js Home Page", "https://facebook.github.io/relay");
+createLink("React.js Home Page", "https://facebook.github.io/react");
 
 function generateHash(link) {
 	return Buffer(JSON.stringify(link)).toString('base64').substr(0,16);
@@ -18,4 +21,4 @@ export function getLinks() {
 	return links;
 }
 
-let links = [];
+export default links;
